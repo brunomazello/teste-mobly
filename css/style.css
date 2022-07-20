@@ -24,9 +24,59 @@
     height: 10vh;
     align-items: center;
     justify-content: space-around;
+    border-bottom: 1px solid var(--bg-input);
 }
 
 .navegacao__menu {
     display: flex;
     list-style-type: none;
+}
+
+.pesquisa {
+    display: flex;
+}
+
+.pesquisa__campo {
+    background-color: var(--bg-input);
+    border-radius: 2px;
+    border: none;
+    height: 50px;
+    margin-right: 10px;
+    width: 200px;
+
+}
+
+.pesquisa__botao {
+    background-color: var(--c-purple);
+    color: var(--bg-light);
+    border-radius: 5px;
+    border: none;
+    width: 70px;
+    font-weight: bold;
+
+}
+
+.pesquisa__botao:hover {
+    background-color: var(--c-seadarkblue);
+    cursor: pointer;
+}
+
+.navegacao h1 {
+    color: var(--c-orange);
+    text-transform: uppercase;
+}
+
+.carrinho__botao {
+    background-color: var(--c-purple);
+    color: var(--bg-light);
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    width: 70px;
+    font-weight: bold;
+}
+
+.carrinho__botao:hover {
+    cursor: pointer;
+    background-color: var(--c-seadarkblue);
 }
