@@ -1,0 +1,32 @@
+:root {
+    --c-navyblue: #1a253b;
+    --c-purple: #5f22a8;
+    --c-orange: #ff4600;
+    --c-black: #414141;
+    --c-seadarkblue: #007693;
+    --bg-light: #f5f9f2;
+    --bg-dark: #edece6;
+    --bg-input: #e0e7e0;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navegacao {
+    padding: 0% 10%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navegacao__menu {
+    display: flex;
+    list-style-type: none;
+}
